@@ -1,0 +1,609 @@
+{
+  "cartPage": {
+    "breadcrumb": {
+      "home": "Inicio",
+      "summary": "1. Revisión",
+      "shippingPayment": "2. Entrega y Pago"
+    },
+    "success": {
+      "title": "¡Transacción Completada Exitosamente!",
+      "description": "Tu pago ha sido autorizado. El entorno cloud de tu plan de hosting ya está en fase de configuración para su activación.",
+      "paymentReference": "Referencia de Pago:",
+      "paidAmount": "Monto Liquidado:",
+      "transactionStatus": "Estado del Pago:",
+      "approved": "AUTORIZADA",
+      "backToCatalog": "Regresar al Catálogo"
+    },
+    "empty": {
+      "title": "Tu cesta de compras está vacía",
+      "description": "No se detectaron servicios de hosting guardados en tu sesión de navegación actual.",
+      "goToStore": "Ver el Catálogo"
+    },
+    "order": {
+      "title": "Productos en tu orden",
+      "clear": "Eliminar Planes"
+    },
+    "financial": {
+      "title": "Resumen de Cuenta",
+      "couponPlaceholder": "Código promocional",
+      "applyCoupon": "Aplicar",
+      "appliedCoupon": "Cupón {code} (-{discount}%)",
+      "remove": "Quitar",
+      "couponInvalid": "El código de descuento no es válido o ya expiró.",
+      "subtotal": "Subtotal de Productos:",
+      "discount": "Descuento Obtenido:",
+      "netTotal": "Monto Neto a Liquidar:",
+      "tax": "IVA {tax}"
+    },
+    "actions": {
+      "proceedToPayment": "Avanzar al Pago",
+      "processing": "Validando Transacción por medio de Keycop...",
+      "payAmount": "Pagar {amount}",
+      "backToCart": "Modificar pedido / Modificar cupón"
+    },
+    "errors": {
+      "declined": "El cargo fue denegado por el banco emisor.",
+      "connection": "Se experimentó un problema de enlace con el procesador de pagos."
+    },
+    "metadata": {
+      "couponApplied": "Cupón de descuento activo",
+      "standardSale": "Adquisición digital convencional"
+    },
+    "form": {
+      "buyerTitle": "Datos de Facturación / Comprador",
+      "addressTitle": "Información de Contacto y Activación",
+      "paymentTitle": "Pasarela de Cobro Encriptada",
+      "firstName": "Nombre(s) *",
+      "lastName": "Apellidos *",
+      "email": "Correo electrónico *",
+      "phone": "Teléfono Móvil (10 posiciones) *",
+      "company": "Empresa (Opcional)",
+      "streetAddress": "Vía pública, Número Exterior y Número Interior *",
+      "streetAddressPlaceholder": "Av. Universidad 450, Int 4",
+      "neighborhood": "Colonia / Entre Calles (Opcional)",
+      "neighborhoodPlaceholder": "Col. Vértiz Narvarte",
+      "city": "Alcaldía o Localidad *",
+      "state": "Provincia / Estado *",
+      "statePlaceholder": "CDMX",
+      "postalCode": "Código Postal *",
+      "country": "Territorio",
+      "mexico": "México (MX)",
+      "cardNumber": "Número de Tarjeta (Visa / Mastercard) *",
+      "cardNumberPlaceholder": "4152 0000 0000 0000",
+      "cardHolderName": "Titular de la Tarjeta *",
+      "cardHolderPlaceholder": "Tal como aparece en la tarjeta",
+      "expiryMonth": "Mes Exp. (MM) *",
+      "expiryMonthPlaceholder": "05",
+      "expiryYear": "Año Exp. (AAAA) *",
+      "expiryYearPlaceholder": "2029",
+      "cvv": "Código de Verificación (CVV) *",
+      "cvvPlaceholder": "•••"
+    },
+    "security": {
+      "note": "Proceso gestionado bajo estándares de seguridad"
+    },
+    "images": {
+      "etominAlt": "Octano",
+      "securePaymentAlt": "Pago seguro"
+    }
+  },
+  "customPlan": {
+    "hero": {
+      "titleHighlight": "Paga",
+      "titleMain": "tu cotización",
+      "subtitle": "Configuración personalizada",
+      "description": "Solución diseñada específicamente para tu operación. Cada negocio tiene procesos, tiempos y objetivos distintos. Por ello, desarrollamos estructuras completamente adaptadas a tus necesidades.",
+      "includesTitle": "¿Qué incluye esta solución?",
+      "features": {
+        "item1": "Análisis de tu proceso comercial actual",
+        "item2": "Identificación de oportunidades de automatización",
+        "item3": "Diseño de solución a medida",
+        "item4": "Implementación estratégica personalizada",
+        "item5": "Optimización enfocada en resultados"
+      },
+      "investmentLabel": "Inversión",
+      "investmentValue": "Definida según alcance",
+      "investmentTax": "+ IVA"
+    },
+    "form": {
+      "badge": "Servicios Personalizados",
+      "title": "Datos del Proyecto",
+      "firstNameLabel": "Nombre",
+      "firstNamePlaceholder": "Escribe tu nombre",
+      "lastNameLabel": "Apellidos",
+      "lastNamePlaceholder": "Escribe tus apellidos",
+      "phoneLabel": "Teléfono de Contacto",
+      "phonePlaceholder": "Ej. +52 55 1234 5678",
+      "emailLabel": "Correo Electrónico",
+      "emailPlaceholder": "correo@ejemplo.com",
+      "quoteLabel": "Número de Folio o Cotización",
+      "quotePlaceholder": "Ej. COT-2026-001",
+      "amountLabel": "Monto a Pagar",
+      "amountPlaceholder": "0.00",
+      "taxNote": "El monto final de la cotización debe ser exacto e incluir impuestos si así lo acordaste con tu asesor comercial."
+    },
+    "authorized": {
+      "description": "Por favor, completa los datos de contacto y el folio de cotización asignado por nuestro equipo. El monto ingresado debe coincidir de forma exacta con tu documento oficial de presupuesto."
+    },
+    "errors": {
+      "firstNameRequired": "El nombre es obligatorio.",
+      "lastNameRequired": "El apellido es obligatorio.",
+      "phoneRequired": "El número de teléfono es obligatorio.",
+      "emailRequired": "El correo electrónico es obligatorio.",
+      "quoteRequired": "El número de cotización/folio es obligatorio.",
+      "invalidAmount": "Por favor, ingresa un monto válido y mayor a cero."
+    },
+    "buttons": {
+      "adding": "Agregando al carrito...",
+      "addToCart": "Proceder al pago"
+    }
+  },
+  "Emails": {
+    "checkout": {
+      "errorMissingFields": "Faltan campos requeridos para procesar la orden",
+      "errorSending": "Error interno del servidor",
+      "client": {
+        "subject": "Recibo de compra #{orderId} - {brandName}",
+        "title": "Confirmación de Compra",
+        "subtitle": "Agradecemos su preferencia. Su orden #{orderId} ha sido procesada con éxito y hemos comenzado la preparación y empaque de sus insumos médicos."
+      },
+      "business": {
+        "subject": "[Venta] Orden #{orderId} - ${amount} MXN",
+        "title": "Nueva Venta Procesada",
+        "subtitle": "Se ha registrado un nuevo pago exitoso por un monto de ${amount} MXN correspondiente a insumos y equipo médico."
+      },
+      "labels": {
+        "orderId": "ID de Orden",
+        "paymentDate": "Fecha de Pago",
+        "buyerInfo": "Información del Comprador",
+        "billingDetails": "Detalles de Facturación",
+        "customer": "Cliente",
+        "address": "Dirección de Entrega",
+        "company": "Institución / Empresa",
+        "operationDetails": "Detalles de la Operación",
+        "modulesSummary": "Resumen de Productos y Materiales",
+        "totalPaid": "Total Pagado"
+      },
+      "footer": {
+        "copyright": "© {year} {brandName}. Todos los derechos reservados.",
+        "specialty": "Distribución especializada de insumos, equipo médico y material de curación de alta calidad."
+      }
+    },
+    "contact": {
+      "errorMissingFields": "Faltan campos requeridos (nombre, email, mensaje)",
+      "errorSending": "Error interno del servidor",
+      "business": {
+        "subject": "[Contacto] {asunto} - {nombre}",
+        "title": "Nueva Solicitud de Contacto",
+        "subtitle": "Se ha recibido una nueva consulta de insumos médicos desde el sitio web.",
+        "sectionLabel": "Detalles del Solicitante"
+      },
+      "client": {
+        "subject": "Recibimos su solicitud - {brandName}",
+        "title": "Hemos recibido su mensaje",
+        "subtitle": "Gracias por comunicarse con Curalia. Su mensaje ha sido asignado a un asesor especializado en insumos médicos.",
+        "sectionLabel": "Resumen de su Mensaje",
+        "automatedNotice": "Este es un correo automatizado confirmando la recepción de su solicitud. Un especialista de nuestro equipo revisará la información y se pondrá en contacto a la brevedad."
+      },
+      "fields": {
+        "name": "Nombre Completo",
+        "email": "Correo Electrónico",
+        "message": "Mensaje enviado"
+      },
+      "footer": {
+        "copyright": "© {year} {brandName}. Todos los derechos reservados.",
+        "specialty": "Distribución especializada de insumos, equipo médico y material de curación de alta calidad."
+      }
+    }
+  },
+  "header": {
+    "nav": {
+      "home": "Inicio",
+      "store": "Tienda",
+      "contact": "Contacto"
+    },
+    "menu": {
+      "open": "Abrir menú",
+      "close": "Cerrar menú"
+    },
+    "cart": {
+      "title": "Carrito",
+      "yourCart": "Tu carrito",
+      "open": "Abrir carrito",
+      "close": "Cerrar carrito",
+      "empty": "No hay productos en el carrito.",
+      "increase": "Aumentar",
+      "decrease": "Disminuir",
+      "remove": "Eliminar",
+      "subtotal": "Subtotal",
+      "checkout": "Finalizar compra"
+    }
+  },
+  "hero": {
+    "bgAlt": "Equipamiento médico profesional",
+    "title": "EQUIPAMIENTO MÉDICO EN EL QUE PUEDES CONFIAR",
+    "description": "Suministros y equipos médicos de alta calidad para hospitales, clínicas y hogar. Precios competitivos y atención personalizada."
+  },
+  "features": {
+    "payment": {
+      "title": "PAGO SEGURO",
+      "text": "Realiza tu compra con total confianza a través de métodos de pago a través de nuestra página de internet."
+    },
+    "prices": {
+      "title": "PRECIOS COMPETITIVOS",
+      "text": "Equipamiento médico de grado profesional a precios accesibles para instituciones y particulares."
+    },
+    "support": {
+      "title": "ATENCIÓN PERSONALIZADA",
+      "text": "Nuestro equipo te asesora para elegir el equipo adecuado según tus necesidades."
+    }
+  },
+  "about": {
+    "intro": {
+      "badge": "Sobre Nosotros",
+      "title": "CURALIA: TU ALIADO EN EQUIPAMIENTO MÉDICO PROFESIONAL",
+      "p1": "Somos una empresa especializada en la comercialización de suministros y equipos médicos de alta calidad, diseñados para mejorar la atención clínica, optimizar procesos hospitalarios y brindar mayor seguridad y confort al paciente.",
+      "p2": "Contamos con un amplio catálogo que abarca desde auxiliares básicos hasta equipos especializados de diagnóstico y soporte vital, con estándares de calidad que garantizan seguridad, funcionalidad y durabilidad.",
+      "imgAlt": "Planta de manufactura de equipo médico"
+    },
+    "quality": {
+      "badge": "Garantía de Excelencia",
+      "title": "CALIDAD Y COMPROMISO EN CADA EQUIPO",
+      "p1": "Trabajamos con estándares de calidad que garantizan seguridad del paciente, funcionalidad clínica y durabilidad en uso continuo. Nuestra misión es facilitar el acceso a tecnología médica confiable que permita elevar la calidad en la atención sanitaria.",
+      "p2": "Atendemos hospitales, clínicas, consultorios, centros de rehabilitación y casas de asistencia. Contamos con más de 70 productos especializados disponibles con atención personalizada, precios competitivos y facturación.",
+      "imgAlt": "Control de calidad en laboratorio"
+    },
+    "visionObjectives": {
+      "vision": {
+        "title": "NUESTRA VISIÓN",
+        "text": "Facilitar el acceso a equipamiento médico de calidad para instituciones y particulares, contribuyendo a una mejor atención sanitaria en hospitales, clínicas y hogares."
+      },
+      "objectives": {
+        "title": "NUESTROS OBJETIVOS",
+        "text": "Ofrecer un catálogo amplio y especializado con disponibilidad inmediata, atención personalizada y precios competitivos para instituciones y venta a mayoreo y menudeo."
+      }
+    }
+  },
+  "categoryCatalog": {
+    "title": "Nuestro catálogo de productos",
+    "viewInStore": "Ver en tienda",
+    "categories": {
+      "aspiradores": {
+        "title": "Aspiradores",
+        "intro": "Equipos de succión médica diseñados para procedimientos clínicos seguros.",
+        "blocks": {
+          "applications": {
+            "heading": "Aplicaciones:",
+            "items": [
+              "Clínicas",
+              "Hospitales",
+              "Consultorios",
+              "Atención domiciliaria"
+            ]
+          },
+          "features": {
+            "heading": "Características:",
+            "items": [
+              "Potencia regulable",
+              "Sistemas de recolección seguros",
+              "Fácil limpieza y mantenimiento"
+            ]
+          }
+        }
+      },
+      "auxiliaresParaBano": {
+        "title": "Auxiliares para baño",
+        "intro": "Diseñados para mejorar la seguridad y autonomía del paciente en entornos hospitalarios o domiciliarios.",
+        "blocks": {
+          "includes": {
+            "heading": "Incluye:",
+            "items": [
+              "Bancos para ducha (con y sin respaldo)",
+              "Bancos plegables",
+              "Agarraderas de seguridad en diferentes medidas",
+              "Estructuras de soporte para baño"
+            ]
+          },
+          "benefits": {
+            "heading": "Beneficios:",
+            "items": [
+              "Prevención de caídas",
+              "Materiales resistentes a la humedad",
+              "Fácil instalación",
+              "Diseño ergonómico"
+            ]
+          }
+        }
+      },
+      "desfibriladores": {
+        "title": "Desfibriladores",
+        "intro": "Equipos de respuesta crítica diseñados para emergencias cardiovasculares.",
+        "blocks": {
+          "idealFor": {
+            "heading": "Ideales para:",
+            "items": [
+              "Hospitales",
+              "Clínicas",
+              "Ambulancias",
+              "Espacios corporativos"
+            ]
+          },
+          "keyFeatures": {
+            "heading": "Características clave:",
+            "items": [
+              "Tecnología confiable",
+              "Operación intuitiva",
+              "Diseño portátil",
+              "Componentes de alta precisión"
+            ]
+          }
+        }
+      },
+      "dosificacionDeMedicamentos": {
+        "title": "Dosificación de Medicamentos",
+        "intro": "Equipos que permiten la administración controlada y precisa de medicamentos.",
+        "blocks": {
+          "includes": {
+            "heading": "Incluye:",
+            "items": [
+              "Bombas de infusión",
+              "Sistemas de dosificación clínica"
+            ]
+          },
+          "benefits": {
+            "heading": "Beneficios:",
+            "items": [
+              "Precisión en la administración",
+              "Seguridad en el tratamiento",
+              "Reducción de errores humanos",
+              "Fácil programación"
+            ]
+          }
+        }
+      },
+      "habitacionDelPaciente": {
+        "title": "Habitación del Paciente",
+        "intro": "Equipamiento esencial para garantizar comodidad, funcionalidad y atención eficiente.",
+        "blocks": {
+          "includes": {
+            "heading": "Incluye:",
+            "items": [
+              "Camas hospitalarias",
+              "Mesas puente",
+              "Burós clínicos",
+              "Accesorios complementarios"
+            ]
+          },
+          "features": {
+            "heading": "Características:",
+            "items": [
+              "Estructura reinforced",
+              "Fácil limpieza y desinfección",
+              "Movilidad con ruedas de alta resistencia",
+              "Ajustes ergonómicos"
+            ]
+          }
+        }
+      },
+      "mobiliarioYEquipoMedico": {
+        "title": "Mobiliario y Equipo Médico",
+        "intro": "Infraestructura clínica robusta y funcional.",
+        "blocks": {
+          "includes1": {
+            "heading": "Incluye:",
+            "items": [
+              "Mesas de exploración",
+              "Carros clínicos",
+              "Equipos auxiliares hospitalarios"
+            ]
+          },
+          "paragraph1": "Fabricados con materiales resistentes y de fácil desinfección.",
+          "diagnosis": {
+            "heading": "Diagnóstico",
+            "paragraph": "Herramientas médicas para evaluación clínica precisa."
+          },
+          "includes2": {
+            "heading": "Incluye:",
+            "items": [
+              "Equipos de medición",
+              "Instrumental de diagnóstico",
+              "Dispositivos de evaluación clínica"
+            ]
+          }
+        }
+      },
+      "monitores": {
+        "title": "Monitores",
+        "intro": "Equipos de monitoreo clínico para supervisión constante del paciente.",
+        "blocks": {
+          "functions": {
+            "heading": "Funciones:",
+            "items": [
+              "Monitoreo de signos vitales",
+              "Pantallas de alta visibilidad",
+              "Alarmas de seguridad"
+            ]
+          },
+          "paragraph": "Diseñados para entornos hospitalarios que requieren supervisión continua y confiable."
+        }
+      },
+      "movilidad": {
+        "title": "Movilidad",
+        "intro": "Soluciones que promueven la independencia y el traslado seguro del paciente.",
+        "blocks": {
+          "includes": {
+            "heading": "Incluye:",
+            "items": [
+              "Sillas de ruedas",
+              "Andaderas",
+              "Bastones",
+              "Auxiliares de marcha"
+            ]
+          },
+          "advantages": {
+            "heading": "Ventajas:",
+            "items": [
+              "Estructuras ligeras y resistentes",
+              "Sistemas de freno seguros",
+              "Diseño plegable (según modelo)",
+              "Adaptables a distintos perfiles de usuario"
+            ]
+          }
+        }
+      },
+      "terapiaRespiratoria": {
+        "title": "Terapia Respiratoria",
+        "intro": "Equipos especializados para soporte respiratorio y tratamiento pulmonar.",
+        "blocks": {
+          "includes": {
+            "heading": "Incluye:",
+            "items": [
+              "Nebulizadores",
+              "Concentradores de oxígeno",
+              "Equipos auxiliares respiratorios"
+            ]
+          },
+          "benefits": {
+            "heading": "Beneficios:",
+            "items": [
+              "Alto rendimiento clínico",
+              "Fácil operación",
+              "Ideales para uso hospitalario o en casa",
+              "Tecnología confiable"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "competitiveAdvantages": {
+    "title": "VENTAJAS COMPETITIVAS",
+    "highlight": "Amplio catálogo (más de 70 productos especializados)",
+    "items": [
+      "Disponibilidad inmediata en múltiples categorías",
+      "Atención personalizada a instituciones",
+      "Venta a mayoreo y menudeo",
+      "Facturación disponible"
+    ]
+  },
+  "featuredProducts": {
+    "badge": "Selección Especial",
+    "title": "PRODUCTOS DESTACADOS",
+    "subtitle": "Equipos médicos certificados, seleccionados para hospitales, clínicas y hogar.",
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "productCard": {
+    "addedToCart": "Añadido al carrito",
+    "currencyPlusVat": "MXN +IVA",
+    "currency": "MXN",
+    "priceLabel": "Precio",
+    "viewDetails": "Ver detalles de {name}",
+    "addToCart": "Añadir {name} al carrito"
+  },
+  "ctaBanner": {
+    "badge": "Calidad Garantizada",
+    "title": "¡DESCUBRE LA DIFERENCIA CURALIA!",
+    "description": "Más de 70 productos especializados disponibles para instituciones y particulares. Equipamiento médico certificado, con atención personalizada y precios competitivos.",
+    "buttonText": "Ver catálogo"
+  },
+  "faq": {
+    "badge": "Resuelve tus dudas",
+    "title": "PREGUNTAS FRECUENTES",
+    "items": [
+      {
+        "question": "¿Atienden a hospitales e instituciones?",
+        "answer": "Sí, contamos con atención especializada para hospitales, clínicas, consultorios y centros de rehabilitación. Ofrecemos venta a mayoreo y menudeo con facturación disponible."
+      },
+      {
+        "question": "¿Manejan precios especiales para compras por mayoreo?",
+        "answer": "Sí, ofrecemos precios preferenciales para instituciones y compras en volumen. Contáctanos para recibir una cotización personalizada."
+      },
+      {
+        "question": "¿Hacen entregas a domicilio?",
+        "answer": "Sí, realizamos envíos a hospitales, clínicas y domicilios. Contáctanos para coordinar la entrega según tu ubicación y necesidades."
+      },
+      {
+        "question": "¿Puedo solicitar asesoría antes de comprar?",
+        "answer": "Sí, nuestro equipo está listo para ayudarte a elegir el equipo adecuado según tus necesidades clínicas o institucionales. Escríbenos o llámanos."
+      }
+    ]
+  },
+  "footer": {
+    "sections": {
+      "store": "TIENDA",
+      "navigation": "NAVEGACIÓN",
+      "contact": "CONTACTO"
+    },
+    "nav": {
+      "home": "Home",
+      "about": "Acerca",
+      "store": "Tienda",
+      "contact": "Contacto"
+    },
+    "legal": {
+      "terms": "Términos y Condiciones",
+      "privacy": "Aviso de Privacidad",
+      "returns": "Política de Reembolsos y Devoluciones"
+    },
+    "address": "Calle Guanajuato No. 224, Piso 8, Despacho 801-802, Col. Roma, Alcaldía Cuauhtémoc, C.P. 06700, CDMX",
+    "paymentMethods": "Métodos de pago",
+    "copyright": "Copyright © 2026 Todos los derechos Reservados."
+  },
+  "categoryPage": {
+    "defaultTitle": "Categoría",
+    "subtitlePrefix": "Equipamiento médico especializado en la categoría",
+    "empty": "No hay productos en esta categoría por el momento.",
+    "count": "Mostrando {count} {count, plural, =1 {producto} other {productos}}",
+    "breadcrumb": {
+      "home": "Home",
+      "store": "Tienda"
+    },
+    "notFound": {
+      "title": "Categoría no encontrada",
+      "description": "No pudimos encontrar la categoría que estás buscando. Revisa nuestro catálogo completo.",
+      "button": "Volver a la tienda"
+    },
+    "error": {
+      "message": "Ocurrió un error al cargar los productos.",
+      "retry": "Reintentar"
+    }
+  },
+  "storePage": {
+    "badge": "Catálogo Oficial",
+    "title": "EXPLORA NUESTRO CATÁLOGO DE PRODUCTOS",
+    "subtitle": "Encuentra el equipamiento médico y las soluciones clínicas de la mejor calidad.",
+    "count": "Mostrando {count} {count, plural, =1 {producto} other {productos}}",
+    "empty": {
+      "message": "No hay productos en esta categoría por el momento.",
+      "resetButton": "Ver todos los productos"
+    },
+    "error": {
+      "message": "Ocurrió un error al cargar los productos.",
+      "retry": "Reintentar"
+    }
+  },
+  "productPage": {
+    "available": "Disponible",
+    "priceSuffix": "MXN + IVA",
+    "addToCart": "Añadir al carrito",
+    "decreaseQuantity": "Disminuir cantidad",
+    "increaseQuantity": "Aumentar cantidad",
+    "breadcrumb": {
+      "home": "Home",
+      "store": "Tienda"
+    },
+    "toast": {
+      "success": "¡Añadido al carrito!"
+    },
+    "notFound": {
+      "title": "Producto no encontrado",
+      "description": "El producto que buscas no está disponible o ha sido retirado de nuestro catálogo.",
+      "button": "Volver a la tienda"
+    },
+    "related": {
+      "title": "PRODUCTOS RELACIONADOS",
+      "subtitle": "Equipos complementarios para tus necesidades"
+    }
+  }
+}

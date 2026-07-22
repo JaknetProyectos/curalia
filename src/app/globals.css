@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 200 12% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 200 12% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 12% 12%;
+
+    /* Curalia deep medical green */
+    --primary: 169 87% 18%;
+    --primary-foreground: 160 40% 98%;
+
+    --secondary: 180 30% 96%;
+    --secondary-foreground: 169 87% 16%;
+    --muted: 190 20% 96%;
+    --muted-foreground: 200 8% 45%;
+    --accent: 174 40% 94%;
+    --accent-foreground: 169 87% 16%;
+    --destructive: 3 74% 45%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 200 16% 90%;
+    --input: 200 16% 88%;
+    --ring: 169 87% 22%;
+    --radius: 0.5rem;
+
+    /* Brand tokens */
+    --brand: 169 87% 18%;
+    --brand-dark: 170 90% 13%;
+    --brand-deep: 168 86% 16%;
+    --brand-tint: 180 33% 97%;
+    --ink: 210 15% 12%;
+
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    --background: 200 20% 6%;
+    --foreground: 0 0% 95%;
+    --card: 200 18% 9%;
+    --card-foreground: 0 0% 95%;
+    --popover: 200 18% 9%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 160 60% 42%;
+    --primary-foreground: 170 90% 8%;
+    --secondary: 200 12% 16%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 200 12% 15%;
+    --muted-foreground: 200 8% 64%;
+    --accent: 200 12% 16%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62% 40%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 200 12% 18%;
+    --input: 200 12% 18%;
+    --ring: 160 60% 42%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-manrope), system-ui, sans-serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-catamaran), system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: var(--font-catamaran), system-ui, sans-serif;
+  }
+  .font-body {
+    font-family: var(--font-manrope), system-ui, sans-serif;
+  }
+  .container-brand {
+    @apply mx-auto w-full max-w-[1200px] px-5 sm:px-6 lg:px-8;
+  }
+  .heading-title {
+    @apply font-display font-normal tracking-[0.01em] text-[hsl(var(--ink))];
+  }
+  .input-brand {
+    @apply w-full rounded-md border border-input bg-white px-4 py-3 text-sm outline-none transition-colors focus:border-[hsl(var(--brand))];
+  }
+}
+
+/* Fade-in animations mirroring the original site's Bricks interactions */
+@keyframes mz-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes mz-fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: mz-fade-in 1.1s ease both;
+}
+
+.animate-fade-in-up {
+  animation: mz-fade-in-up 1s ease both;
+}
+
+/* Utility: hide scrollbar for filter row */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

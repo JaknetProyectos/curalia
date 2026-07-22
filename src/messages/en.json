@@ -1,0 +1,609 @@
+{
+  "cartPage": {
+    "breadcrumb": {
+      "home": "Home",
+      "summary": "1. Review",
+      "shippingPayment": "2. Delivery and Payment Details"
+    },
+    "success": {
+      "title": "Payment Authorized Successfully!",
+      "description": "Your transaction has been approved. Your cloud hosting plan configuration is currently being processed for immediate activation.",
+      "paymentReference": "Payment ID:",
+      "paidAmount": "Total Paid:",
+      "transactionStatus": "Transaction State:",
+      "approved": "APPROVED",
+      "backToCatalog": "Return to Catalog"
+    },
+    "empty": {
+      "title": "Your shopping cart is empty",
+      "description": "We could not find any hosting services or plans selected in your current browsing session.",
+      "goToStore": "View Catalog"
+    },
+    "order": {
+      "title": "Products in Your Order",
+      "clear": "Remove Plans"
+    },
+    "financial": {
+      "title": "Account Summary",
+      "couponPlaceholder": "Promo code",
+      "applyCoupon": "Validate",
+      "appliedCoupon": "Promo {code} (-{discount}%)",
+      "remove": "Delete",
+      "couponInvalid": "The discount code you entered is invalid or has expired.",
+      "subtotal": "Subtotal amount:",
+      "discount": "Discount applied:",
+      "netTotal": "Net Balance Due:",
+      "tax": "VAT {tax}"
+    },
+    "actions": {
+      "proceedToPayment": "Continue to Payment Form",
+      "processing": "Checking Funds through Octano...",
+      "payAmount": "Authorize {amount}",
+      "backToCart": "Edit my order / Modify coupon"
+    },
+    "errors": {
+      "declined": "The charge was rejected by the card issuer.",
+      "connection": "A communication error occurred with the payment platform."
+    },
+    "metadata": {
+      "couponApplied": "Promo code active",
+      "standardSale": "Standard digital purchase"
+    },
+    "form": {
+      "buyerTitle": "Purchaser / Billing Details",
+      "addressTitle": "Contact and Activation Details",
+      "paymentTitle": "Secured Payment Gateway",
+      "firstName": "First Name(s) *",
+      "lastName": "Last Name(s) *",
+      "email": "Email Address *",
+      "phone": "Cell Phone (10 digits) *",
+      "company": "Company Name (Optional)",
+      "streetAddress": "Street, Exterior No. and Interior No. *",
+      "streetAddressPlaceholder": "Av. Universidad 450, Apt 4",
+      "neighborhood": "Neighborhood / Intersections (Optional)",
+      "neighborhoodPlaceholder": "Vértiz Narvarte",
+      "city": "City *",
+      "state": "State / Province *",
+      "statePlaceholder": "Mexico City",
+      "postalCode": "ZIP / Postal Code *",
+      "country": "Country",
+      "mexico": "Mexico (MX)",
+      "cardNumber": "Card Number (Visa / Mastercard) *",
+      "cardNumberPlaceholder": "4152 0000 0000 0000",
+      "cardHolderName": "Cardholder Full Name *",
+      "cardHolderPlaceholder": "Exactly as shown on the card",
+      "expiryMonth": "Exp. Month (MM) *",
+      "expiryMonthPlaceholder": "05",
+      "expiryYear": "Exp. Year (YYYY) *",
+      "expiryYearPlaceholder": "2029",
+      "cvv": "Security Code (CVV) *",
+      "cvvPlaceholder": "•••"
+    },
+    "security": {
+      "note": "Secured Transaction"
+    },
+    "images": {
+      "etominAlt": "Octano",
+      "securePaymentAlt": "Safe transaction"
+    }
+  },
+  "customPlan": {
+    "hero": {
+      "titleHighlight": "Pay",
+      "titleMain": "your quote",
+      "subtitle": "Customized Configuration",
+      "description": "A solution tailored specifically to your business operations. Every business has unique workflows, timelines, and goals. That is why we develop structural frameworks fully aligned with your exact needs.",
+      "includesTitle": "What does this solution include?",
+      "features": {
+        "item1": "Analysis of your current sales process",
+        "item2": "Identification of automation opportunities",
+        "item3": "Tailored solution design",
+        "item4": "Custom strategic implementation",
+        "item5": "Result-oriented optimization"
+      },
+      "investmentLabel": "Investment",
+      "investmentValue": "Defined by project scope",
+      "investmentTax": "+ TAX / VAT"
+    },
+    "form": {
+      "badge": "Custom Services",
+      "title": "Project Details",
+      "firstNameLabel": "First Name",
+      "firstNamePlaceholder": "Enter your first name",
+      "lastNameLabel": "Last Name",
+      "lastNamePlaceholder": "Enter your last name",
+      "phoneLabel": "Contact Phone",
+      "phonePlaceholder": "e.g., +1 555 123 4567",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "email@example.com",
+      "quoteLabel": "Quote / Folio Number",
+      "quotePlaceholder": "e.g., QT-2026-001",
+      "amountLabel": "Amount to Pay",
+      "amountPlaceholder": "0.00",
+      "taxNote": "The final quote amount must be exact and include taxes if agreed upon with your sales representative."
+    },
+    "authorized": {
+      "description": "Please complete the contact information and the quote number assigned by our team. The amount entered must match your official budget document exactly."
+    },
+    "errors": {
+      "firstNameRequired": "First name is required.",
+      "lastNameRequired": "Last name is required.",
+      "phoneRequired": "Phone number is required.",
+      "emailRequired": "Email address is required.",
+      "quoteRequired": "Quote / Folio number is required.",
+      "invalidAmount": "Please enter a valid amount greater than zero."
+    },
+    "buttons": {
+      "adding": "Adding to cart...",
+      "addToCart": "Proceed to checkout"
+    }
+  },
+  "Emails": {
+    "checkout": {
+      "errorMissingFields": "Required fields are missing to process the order",
+      "errorSending": "Internal server error",
+      "client": {
+        "subject": "Purchase Receipt #{orderId} - {brandName}",
+        "title": "Order Confirmation",
+        "subtitle": "Thank you for your business. Your order #{orderId} has been successfully processed, and we have begun preparing your medical supplies."
+      },
+      "business": {
+        "subject": "[Sale] Order #{orderId} - ${amount} MXN",
+        "title": "New Sale Processed",
+        "subtitle": "A new successful payment of ${amount} MXN has been registered for medical supplies and equipment."
+      },
+      "labels": {
+        "orderId": "Order ID",
+        "paymentDate": "Payment Date",
+        "buyerInfo": "Buyer Information",
+        "billingDetails": "Billing Details",
+        "customer": "Customer",
+        "address": "Shipping Address",
+        "company": "Institution / Company",
+        "operationDetails": "Transaction Details",
+        "modulesSummary": "Products and Items Summary",
+        "totalPaid": "Total Paid"
+      },
+      "footer": {
+        "copyright": "© {year} {brandName}. All rights reserved.",
+        "specialty": "Specialized distribution of high-quality medical supplies, equipment, and healthcare products."
+      }
+    },
+    "contact": {
+      "errorMissingFields": "Required fields are missing (name, email, message)",
+      "errorSending": "Internal server error",
+      "business": {
+        "subject": "[Inquiry] {asunto} - {nombre}",
+        "title": "New Contact Inquiry",
+        "subtitle": "A new inquiry regarding medical supplies has been received from the website.",
+        "sectionLabel": "Applicant Details"
+      },
+      "client": {
+        "subject": "We have received your request - {brandName}",
+        "title": "We received your message",
+        "subtitle": "Thank you for reaching out to Curalia. Your message has been assigned to a medical supplies specialist.",
+        "sectionLabel": "Message Summary",
+        "automatedNotice": "This is an automated email confirming receipt of your request. A specialist from our team will review your information and get back to you shortly."
+      },
+      "fields": {
+        "name": "Full Name",
+        "email": "Email Address",
+        "message": "Message Content"
+      },
+      "footer": {
+        "copyright": "© {year} {brandName}. All rights reserved.",
+        "specialty": "Specialized distribution of high-quality medical supplies, equipment, and healthcare products."
+      }
+    }
+  },
+  "header": {
+    "nav": {
+      "home": "Home",
+      "store": "Store",
+      "contact": "Contact"
+    },
+    "menu": {
+      "open": "Open menu",
+      "close": "Close menu"
+    },
+    "cart": {
+      "title": "Cart",
+      "yourCart": "Your cart",
+      "open": "Open cart",
+      "close": "Close cart",
+      "empty": "There are no products in the cart.",
+      "increase": "Increase",
+      "decrease": "Decrease",
+      "remove": "Delete",
+      "subtotal": "Subtotal",
+      "checkout": "Checkout"
+    }
+  },
+  "hero": {
+    "bgAlt": "Professional medical equipment",
+    "title": "MEDICAL EQUIPMENT YOU CAN TRUST",
+    "description": "High-quality medical supplies and equipment for hospitals, clinics, and home. Competitive prices and personalized service."
+  },
+  "features": {
+    "payment": {
+      "title": "SECURE PAYMENT",
+      "text": "Make your purchase with total confidence through payment methods on our website."
+    },
+    "prices": {
+      "title": "COMPETITIVE PRICES",
+      "text": "Professional-grade medical equipment at accessible prices for institutions and individuals."
+    },
+    "support": {
+      "title": "PERSONALIZED ATTENTION",
+      "text": "Our team advises you to choose the right equipment according to your needs."
+    }
+  },
+  "about": {
+    "intro": {
+      "badge": "About Us",
+      "title": "CURALIA: YOUR ALLY IN PROFESSIONAL MEDICAL EQUIPMENT",
+      "p1": "We are a company specialized in marketing high-quality medical supplies and equipment, designed to improve clinical care, optimize hospital processes, and provide greater safety and comfort to the patient.",
+      "p2": "We have an extensive catalog ranging from basic assistants to specialized diagnostic and life support equipment, with quality standards that guarantee safety, functionality, and durability.",
+      "imgAlt": "Medical equipment manufacturing plant"
+    },
+    "quality": {
+      "badge": "Excellence Guarantee",
+      "title": "QUALITY AND COMMITMENT IN EVERY EQUIPMENT",
+      "p1": "We work with quality standards that guarantee patient safety, clinical functionality, and durability in continuous use. Our mission is to facilitate access to reliable medical technology that allows elevating quality in healthcare.",
+      "p2": "We serve hospitals, clinics, offices, rehabilitation centers, and care homes. We have over 70 specialized products available with personalized attention, competitive prices, and invoicing.",
+      "imgAlt": "Quality control in laboratory"
+    },
+    "visionObjectives": {
+      "vision": {
+        "title": "OUR VISION",
+        "text": "Facilitate access to quality medical equipment for institutions and individuals, contributing to better healthcare in hospitals, clinics, and homes."
+      },
+      "objectives": {
+        "title": "OUR OBJECTIVES",
+        "text": "Offer a wide and specialized catalog with immediate availability, personalized attention, and competitive prices for institutions and wholesale and retail sales."
+      }
+    }
+  },
+  "categoryCatalog": {
+    "title": "Our product catalog",
+    "viewInStore": "View in store",
+    "categories": {
+      "aspiradores": {
+        "title": "Aspirators",
+        "intro": "Medical suction equipment designed for safe clinical procedures.",
+        "blocks": {
+          "applications": {
+            "heading": "Applications:",
+            "items": [
+              "Clinics",
+              "Hospitals",
+              "Doctors' offices",
+              "Home care"
+            ]
+          },
+          "features": {
+            "heading": "Features:",
+            "items": [
+              "Adjustable power",
+              "Safe collection systems",
+              "Easy cleaning and maintenance"
+            ]
+          }
+        }
+      },
+      "auxiliaresParaBano": {
+        "title": "Bathroom aids",
+        "intro": "Designed to improve patient safety and autonomy in hospital or home environments.",
+        "blocks": {
+          "includes": {
+            "heading": "Includes:",
+            "items": [
+              "Shower benches (with and without backrest)",
+              "Folding benches",
+              "Safety grab bars in various sizes",
+              "Bathroom support structures"
+            ]
+          },
+          "benefits": {
+            "heading": "Benefits:",
+            "items": [
+              "Fall prevention",
+              "Moisture-resistant materials",
+              "Easy installation",
+              "Ergonomic design"
+            ]
+          }
+        }
+      },
+      "desfibriladores": {
+        "title": "Defibrillators",
+        "intro": "Critical response equipment designed for cardiovascular emergencies.",
+        "blocks": {
+          "idealFor": {
+            "heading": "Ideal for:",
+            "items": [
+              "Hospitals",
+              "Clinics",
+              "Ambulances",
+              "Corporate spaces"
+            ]
+          },
+          "keyFeatures": {
+            "heading": "Key features:",
+            "items": [
+              "Reliable technology",
+              "Intuitive operation",
+              "Portable design",
+              "High-precision components"
+            ]
+          }
+        }
+      },
+      "dosificacionDeMedicamentos": {
+        "title": "Medication Dosage",
+        "intro": "Equipment allowing controlled and precise administration of medication.",
+        "blocks": {
+          "includes": {
+            "heading": "Includes:",
+            "items": [
+              "Infusion pumps",
+              "Clinical dosing systems"
+            ]
+          },
+          "benefits": {
+            "heading": "Benefits:",
+            "items": [
+              "Precision in administration",
+              "Safety in treatment",
+              "Reduction of human errors",
+              "Easy programming"
+            ]
+          }
+        }
+      },
+      "habitacionDelPaciente": {
+        "title": "Patient Room",
+        "intro": "Essential equipment to guarantee comfort, functionality, and efficient care.",
+        "blocks": {
+          "includes": {
+            "heading": "Includes:",
+            "items": [
+              "Hospital beds",
+              "Overbed tables",
+              "Clinical bedside tables",
+              "Complementary accessories"
+            ]
+          },
+          "features": {
+            "heading": "Features:",
+            "items": [
+              "Reinforced structure",
+              "Easy cleaning and disinfection",
+              "Mobility with high-resistance wheels",
+              "Ergonomic adjustments"
+            ]
+          }
+        }
+      },
+      "mobiliarioYEquipoMedico": {
+        "title": "Medical Furniture and Equipment",
+        "intro": "Robust and functional clinical infrastructure.",
+        "blocks": {
+          "includes1": {
+            "heading": "Includes:",
+            "items": [
+              "Examination tables",
+              "Clinical carts",
+              "Hospital auxiliary equipment"
+            ]
+          },
+          "paragraph1": "Made with resistant and easily disinfected materials.",
+          "diagnosis": {
+            "heading": "Diagnosis",
+            "paragraph": "Medical tools for accurate clinical assessment."
+          },
+          "includes2": {
+            "heading": "Includes:",
+            "items": [
+              "Measuring equipment",
+              "Diagnostic instruments",
+              "Clinical evaluation devices"
+            ]
+          }
+        }
+      },
+      "monitores": {
+        "title": "Monitors",
+        "intro": "Clinical monitoring equipment for constant patient supervision.",
+        "blocks": {
+          "functions": {
+            "heading": "Functions:",
+            "items": [
+              "Vital signs monitoring",
+              "High-visibility screens",
+              "Safety alarms"
+            ]
+          },
+          "paragraph": "Designed for hospital environments that require continuous and reliable supervision."
+        }
+      },
+      "movilidad": {
+        "title": "Mobility",
+        "intro": "Solutions that promote patient independence and safe transfer.",
+        "blocks": {
+          "includes": {
+            "heading": "Includes:",
+            "items": [
+              "Wheelchairs",
+              "Walkers",
+              "Canes",
+              "Walking aids"
+            ]
+          },
+          "advantages": {
+            "heading": "Advantages:",
+            "items": [
+              "Lightweight and resistant structures",
+              "Safe braking systems",
+              "Folding design (depending on model)",
+              "Adaptable to different user profiles"
+            ]
+          }
+        }
+      },
+      "terapiaRespiratoria": {
+        "title": "Respiratory Therapy",
+        "intro": "Specialized equipment for respiratory support and pulmonary treatment.",
+        "blocks": {
+          "includes": {
+            "heading": "Includes:",
+            "items": [
+              "Nebulizers",
+              "Oxygen concentrators",
+              "Auxiliary respiratory equipment"
+            ]
+          },
+          "benefits": {
+            "heading": "Benefits:",
+            "items": [
+              "High clinical performance",
+              "Easy operation",
+              "Ideal for hospital or home use",
+              "Reliable technology"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "competitiveAdvantages": {
+    "title": "COMPETITIVE ADVANTAGES",
+    "highlight": "Broad catalog (over 70 specialized products)",
+    "items": [
+      "Immediate availability across multiple categories",
+      "Personalized service for institutional clients",
+      "Wholesale and retail sales",
+      "Invoicing options available"
+    ]
+  },
+  "featuredProducts": {
+    "badge": "Special Selection",
+    "title": "FEATURED PRODUCTS",
+    "subtitle": "Certified medical equipment, selected for hospitals, clinics, and home care.",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "productCard": {
+    "addedToCart": "Added to cart",
+    "currencyPlusVat": "MXN +VAT",
+    "currency": "MXN",
+    "priceLabel": "Price",
+    "viewDetails": "View details for {name}",
+    "addToCart": "Add {name} to cart"
+  },
+  "ctaBanner": {
+    "badge": "Guaranteed Quality",
+    "title": "DISCOVER THE CURALIA DIFFERENCE!",
+    "description": "Over 70 specialized products available for both institutions and individuals. Certified medical equipment, personalized service, and competitive pricing.",
+    "buttonText": "View catalog"
+  },
+  "faq": {
+    "badge": "Get answers",
+    "title": "FREQUENTLY ASKED QUESTIONS",
+    "items": [
+      {
+        "question": "Do you serve hospitals and institutions?",
+        "answer": "Yes, we provide specialized service for hospitals, clinics, medical offices, and rehabilitation centers. We offer wholesale and retail sales with invoicing available."
+      },
+      {
+        "question": "Do you offer special pricing for bulk/wholesale purchases?",
+        "answer": "Yes, we offer preferential pricing for institutions and volume purchases. Contact us to receive a personalized quote."
+      },
+      {
+        "question": "Do you offer home or facility delivery?",
+        "answer": "Yes, we deliver to hospitals, clinics, and residences. Contact us to coordinate delivery based on your location and requirements."
+      },
+      {
+        "question": "Can I request advice or consultation before buying?",
+        "answer": "Yes, our team is ready to help you choose the right equipment according to your clinical or institutional needs. Message or call us."
+      }
+    ]
+  },
+  "footer": {
+    "sections": {
+      "store": "STORE",
+      "navigation": "NAVIGATION",
+      "contact": "CONTACT"
+    },
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "store": "Shop",
+      "contact": "Contact"
+    },
+    "legal": {
+      "terms": "Terms & Conditions",
+      "privacy": "Privacy Policy",
+      "returns": "Refund and Return Policy"
+    },
+    "address": "Calle Guanajuato No. 224, Floor 8, Suite 801-802, Col. Roma, Cuauhtémoc, ZIP 06700, Mexico City",
+    "paymentMethods": "Payment methods",
+    "copyright": "Copyright © 2026 All rights reserved."
+  },
+  "categoryPage": {
+    "defaultTitle": "Category",
+    "subtitlePrefix": "Specialized medical equipment in the category",
+    "empty": "No products available in this category at the moment.",
+    "count": "Showing {count} {count, plural, =1 {product} other {products}}",
+    "breadcrumb": {
+      "home": "Home",
+      "store": "Shop"
+    },
+    "notFound": {
+      "title": "Category not found",
+      "description": "We couldn't find the category you are looking for. Please check our full catalog.",
+      "button": "Back to store"
+    },
+    "error": {
+      "message": "An error occurred while loading products.",
+      "retry": "Retry"
+    }
+  },
+  "storePage": {
+    "badge": "Official Catalog",
+    "title": "EXPLORE OUR PRODUCT CATALOG",
+    "subtitle": "Find top-quality medical equipment and clinical solutions.",
+    "count": "Showing {count} {count, plural, =1 {product} other {products}}",
+    "empty": {
+      "message": "No products found in this category at the moment.",
+      "resetButton": "View all products"
+    },
+    "error": {
+      "message": "An error occurred while loading products.",
+      "retry": "Retry"
+    }
+  },
+  "productPage": {
+    "available": "In Stock",
+    "priceSuffix": "MXN + VAT",
+    "addToCart": "Add to cart",
+    "decreaseQuantity": "Decrease quantity",
+    "increaseQuantity": "Increase quantity",
+    "breadcrumb": {
+      "home": "Home",
+      "store": "Shop"
+    },
+    "toast": {
+      "success": "Added to cart!"
+    },
+    "notFound": {
+      "title": "Product not found",
+      "description": "The product you are looking for is not available or has been removed from our catalog.",
+      "button": "Back to store"
+    },
+    "related": {
+      "title": "RELATED PRODUCTS",
+      "subtitle": "Complementary equipment for your clinical needs"
+    }
+  }
+}
