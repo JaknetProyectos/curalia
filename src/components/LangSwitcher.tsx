@@ -19,7 +19,7 @@ export default function LangSwitcher() {
         fixed
         bottom-6
         right-6
-        z-50
+        z-30
         flex
         items-center
         gap-2
