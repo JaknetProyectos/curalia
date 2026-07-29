@@ -542,9 +542,9 @@
       "contact": "Contacto"
     },
     "legal": {
-      "terms": "Términos y Condiciones",
-      "privacy": "Aviso de Privacidad",
-      "returns": "Política de Reembolsos y Devoluciones"
+      "terms": "TÉRMINOS Y CONDICIONES",
+      "privacy": "AVISO DE PRIVACIDAD INTEGRAL",
+      "returns": "POLÍTICA DE REEMBOLSOS Y DEVOLUCIONES"
     },
     "address": "Calle Guanajuato No. 224, Piso 8, Despacho 801-802, Col. Roma, Alcaldía Cuauhtémoc, C.P. 06700, CDMX",
     "paymentMethods": "Métodos de pago",
@@ -604,6 +604,46 @@
     "related": {
       "title": "PRODUCTOS RELACIONADOS",
       "subtitle": "Equipos complementarios para tus necesidades"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "title": "CONTACTO",
+      "subtitle": "Estamos listos para ayudarte a elegir el equipo adecuado según tus necesidades clínicas o institucionales. No dudes en contactarnos."
+    },
+    "info": {
+      "title": "CONTÁCTANOS",
+      "subtitle": "Comunícate con nosotros a través de los siguientes medios.",
+      "addressLabel": "DIRECCIÓN",
+      "addressLine1": "Calle Guanajuato N°224, Piso 8,",
+      "addressLine2": "Desp. 801-802, Col. Roma, Alcaldía Cuauhtémoc,",
+      "addressLine3": "C.P. 06700, CDMX",
+      "phoneLabel": "TELÉFONO",
+      "emailLabel": "CORREO"
+    },
+    "form": {
+      "title": "¡ESCRÍBENOS!",
+      "subtitle": "Déjanos un mensaje y te responderemos a la brevedad.",
+      "nameLabel": "NOMBRE",
+      "namePlaceholder": "Ingresa tu nombre",
+      "emailLabel": "CORREO ELECTRÓNICO",
+      "emailPlaceholder": "Ingresa tu correo electrónico",
+      "messageLabel": "MENSAJE",
+      "messagePlaceholder": "Ingresa tu mensaje",
+      "submitButton": "Enviar mensaje",
+      "sendingButton": "Enviando..."
+    },
+    "toast": {
+      "successTitle": "¡Mensaje enviado!",
+      "successDescription": "Nos pondremos en contacto contigo muy pronto.",
+      "errorTitle": "No se pudo enviar el mensaje",
+      "errorFallback": "Inténtalo de nuevo."
+    },
+    "customOrder": {
+      "title": "PEDIDO PERSONALIZADO",
+      "description1": "Equipamiento médico a tu medida.",
+      "description2": "Si aún no cuentas con una cotización, ¡comunícate con nosotros!",
+      "ctaButton": "Realizar mi pago"
     }
   }
 }

@@ -28,10 +28,6 @@ export function ProductCard({ product }: { product: Product }) {
           <span className="rounded-lg bg-orange-50 px-2.5 py-1 font-mono text-[11px] font-bold tracking-wider text-orange-600 border border-orange-100">
             {product.sku}
           </span>
-          <span className="whitespace-nowrap rounded-full border border-zinc-100 bg-zinc-50 px-3 py-1 text-[11px] font-semibold text-zinc-700 shadow-2xs">
-            {formatPrice(product.price)}{" "}
-            <span className="font-normal text-zinc-400">{t("currencyPlusVat")}</span>
-          </span>
         </div>
 
         {/* Image container con overlay interactivo */}
@@ -71,8 +67,8 @@ export function ProductCard({ product }: { product: Product }) {
           </span>
           <p className="font-display text-lg font-black tracking-tight text-zinc-900">
             {formatPrice(product.price)}
-            <span className="ml-1 text-[10px] font-normal text-zinc-500">
-              {t("currency")}
+             <span className="ml-1 text-[10px] font-normal text-zinc-500">
+              {t("currencyPlusVat")}
             </span>
           </p>
         </div>

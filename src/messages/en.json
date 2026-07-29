@@ -542,9 +542,9 @@
       "contact": "Contact"
     },
     "legal": {
-      "terms": "Terms & Conditions",
-      "privacy": "Privacy Policy",
-      "returns": "Refund and Return Policy"
+      "terms": "TERMS AND CONDITIONS",
+      "privacy": "COMPREHENSIVE PRIVACY NOTICE",
+      "returns": "REFUND AND RETURN POLICY"
     },
     "address": "Calle Guanajuato No. 224, Floor 8, Suite 801-802, Col. Roma, Cuauhtémoc, ZIP 06700, Mexico City",
     "paymentMethods": "Payment methods",
@@ -604,6 +604,46 @@
     "related": {
       "title": "RELATED PRODUCTS",
       "subtitle": "Complementary equipment for your clinical needs"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "title": "CONTACT US",
+      "subtitle": "We are ready to help you choose the right equipment according to your clinical or institutional needs. Feel free to reach out to us."
+    },
+    "info": {
+      "title": "GET IN TOUCH",
+      "subtitle": "Reach out to us through any of the following channels.",
+      "addressLabel": "ADDRESS",
+      "addressLine1": "Calle Guanajuato No. 224, 8th Floor,",
+      "addressLine2": "Offices 801-802, Col. Roma, Cuauhtémoc,",
+      "addressLine3": "Zip Code 06700, Mexico City",
+      "phoneLabel": "PHONE",
+      "emailLabel": "EMAIL"
+    },
+    "form": {
+      "title": "WRITE TO US!",
+      "subtitle": "Leave us a message and we will respond as soon as possible.",
+      "nameLabel": "NAME",
+      "namePlaceholder": "Enter your name",
+      "emailLabel": "EMAIL ADDRESS",
+      "emailPlaceholder": "Enter your email address",
+      "messageLabel": "MESSAGE",
+      "messagePlaceholder": "Enter your message",
+      "submitButton": "Send message",
+      "sendingButton": "Sending..."
+    },
+    "toast": {
+      "successTitle": "Message sent!",
+      "successDescription": "We will get in touch with you very soon.",
+      "errorTitle": "Could not send message",
+      "errorFallback": "Please try again."
+    },
+    "customOrder": {
+      "title": "CUSTOM ORDER",
+      "description1": "Tailor-made medical equipment.",
+      "description2": "If you don't have a quote yet, please contact us!",
+      "ctaButton": "Make my payment"
     }
   }
 }
