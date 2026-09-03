@@ -37,7 +37,7 @@
     },
     "actions": {
       "proceedToPayment": "Avanzar al Pago",
-      "processing": "Validando Transacción por medio de Keycop...",
+      "processing": "Validando Transacción por medio de Etomin...",
       "payAmount": "Pagar {amount}",
       "backToCart": "Modificar pedido / Modificar cupón"
     },
@@ -74,8 +74,8 @@
       "cardHolderPlaceholder": "Tal como aparece en la tarjeta",
       "expiryMonth": "Mes Exp. (MM) *",
       "expiryMonthPlaceholder": "05",
-      "expiryYear": "Año Exp. (AAAA) *",
-      "expiryYearPlaceholder": "2029",
+      "expiryYear": "Año Exp. (AA) *",
+      "expiryYearPlaceholder": "29",
       "cvv": "Código de Verificación (CVV) *",
       "cvvPlaceholder": "•••"
     },
@@ -83,7 +83,7 @@
       "note": "Proceso gestionado bajo estándares de seguridad"
     },
     "images": {
-      "etominAlt": "Octano",
+      "etominAlt": "Etomin",
       "securePaymentAlt": "Pago seguro"
     }
   },
@@ -113,7 +113,7 @@
       "lastNameLabel": "Apellidos",
       "lastNamePlaceholder": "Escribe tus apellidos",
       "phoneLabel": "Teléfono de Contacto",
-      "phonePlaceholder": "Ej. +52 55 1234 5678",
+      "phonePlaceholder": "Ej. +52 55 5682 3310",
       "emailLabel": "Correo Electrónico",
       "emailPlaceholder": "correo@ejemplo.com",
       "quoteLabel": "Número de Folio o Cotización",
@@ -140,6 +140,7 @@
   },
   "Emails": {
     "checkout": {
+      "localeCode" : "es",
       "errorMissingFields": "Faltan campos requeridos para procesar la orden",
       "errorSending": "Error interno del servidor",
       "client": {
@@ -546,7 +547,7 @@
       "privacy": "AVISO DE PRIVACIDAD INTEGRAL",
       "returns": "POLÍTICA DE REEMBOLSOS Y DEVOLUCIONES"
     },
-    "address": "Calle Guanajuato No. 224, Piso 8, Despacho 801-802, Col. Roma, Alcaldía Cuauhtémoc, C.P. 06700, CDMX",
+    "address": "Avenida Insurgentes Sur 605, Interior 802 Piso 8, Colonia Nápoles, Alcaldía Benito Juárez, C.P. 03810, Ciudad de México",
     "paymentMethods": "Métodos de pago",
     "copyright": "Copyright © 2026 Todos los derechos Reservados."
   },
@@ -615,9 +616,9 @@
       "title": "CONTÁCTANOS",
       "subtitle": "Comunícate con nosotros a través de los siguientes medios.",
       "addressLabel": "DIRECCIÓN",
-      "addressLine1": "Calle Guanajuato N°224, Piso 8,",
-      "addressLine2": "Desp. 801-802, Col. Roma, Alcaldía Cuauhtémoc,",
-      "addressLine3": "C.P. 06700, CDMX",
+      "addressLine1": "Avenida Insurgentes Sur 605, Interior 802 Piso 8",
+      "addressLine2": "Colonia Nápoles, Alcaldía Benito Juárez,",
+      "addressLine3": "C.P. 03810, Ciudad de México",
       "phoneLabel": "TELÉFONO",
       "emailLabel": "CORREO"
     },

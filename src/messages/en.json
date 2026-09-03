@@ -37,7 +37,7 @@
     },
     "actions": {
       "proceedToPayment": "Continue to Payment Form",
-      "processing": "Checking Funds through Octano...",
+      "processing": "Checking Funds through Etomin...",
       "payAmount": "Authorize {amount}",
       "backToCart": "Edit my order / Modify coupon"
     },
@@ -74,8 +74,8 @@
       "cardHolderPlaceholder": "Exactly as shown on the card",
       "expiryMonth": "Exp. Month (MM) *",
       "expiryMonthPlaceholder": "05",
-      "expiryYear": "Exp. Year (YYYY) *",
-      "expiryYearPlaceholder": "2029",
+      "expiryYear": "Exp. Year (YY) *",
+      "expiryYearPlaceholder": "29",
       "cvv": "Security Code (CVV) *",
       "cvvPlaceholder": "•••"
     },
@@ -83,7 +83,7 @@
       "note": "Secured Transaction"
     },
     "images": {
-      "etominAlt": "Octano",
+      "etominAlt": "Etomin",
       "securePaymentAlt": "Safe transaction"
     }
   },
@@ -113,7 +113,7 @@
       "lastNameLabel": "Last Name",
       "lastNamePlaceholder": "Enter your last name",
       "phoneLabel": "Contact Phone",
-      "phonePlaceholder": "e.g., +1 555 123 4567",
+      "phonePlaceholder": "e.g., +52 55 5682 3310",
       "emailLabel": "Email Address",
       "emailPlaceholder": "email@example.com",
       "quoteLabel": "Quote / Folio Number",
@@ -140,6 +140,7 @@
   },
   "Emails": {
     "checkout": {
+      "localeCode" : "en",
       "errorMissingFields": "Required fields are missing to process the order",
       "errorSending": "Internal server error",
       "client": {
@@ -546,7 +547,7 @@
       "privacy": "COMPREHENSIVE PRIVACY NOTICE",
       "returns": "REFUND AND RETURN POLICY"
     },
-    "address": "Calle Guanajuato No. 224, Floor 8, Suite 801-802, Col. Roma, Cuauhtémoc, ZIP 06700, Mexico City",
+    "address": "Avenida Insurgentes Sur 605, Suite 802, 8th Floor, Colonia Nápoles, Benito Juárez Borough, Postal Code 03810, Mexico City",
     "paymentMethods": "Payment methods",
     "copyright": "Copyright © 2026 All rights reserved."
   },
@@ -615,9 +616,9 @@
       "title": "GET IN TOUCH",
       "subtitle": "Reach out to us through any of the following channels.",
       "addressLabel": "ADDRESS",
-      "addressLine1": "Calle Guanajuato No. 224, 8th Floor,",
-      "addressLine2": "Offices 801-802, Col. Roma, Cuauhtémoc,",
-      "addressLine3": "Zip Code 06700, Mexico City",
+      "addressLine1": "Avenida Insurgentes Sur 605, Suite 802",
+      "addressLine2": "8th Floor, Colonia Nápoles",
+      "addressLine3": "Benito Juárez Borough, Postal Code 03810, Mexico City",
       "phoneLabel": "PHONE",
       "emailLabel": "EMAIL"
     },

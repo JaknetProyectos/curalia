@@ -26,7 +26,7 @@ import { useLocale, useTranslations } from "next-intl";
 
 import { useCart } from "@/context/CartContext";
 
-import { processKeycopPayment } from "@/lib/payment";
+import { processEtominPayment } from "@/lib/payment";
 import { formatPrice } from "@/lib/format";
 import { useProducts } from "@/hooks/useProducts";
 
@@ -234,7 +234,7 @@ export default function CarritoCheckoutPage() {
     };
 
     try {
-      const response = await processKeycopPayment(paymentPayload);
+      const response = await processEtominPayment(paymentPayload);
 
       if (response.success) {
         setSuccessData(response.data);
@@ -344,19 +344,16 @@ export default function CarritoCheckoutPage() {
 
           <div className="flex items-center gap-3">
             <div
-              className={`h-2.5 w-2.5 rounded-full transition-colors duration-300 ${
-                step >= 1 ? "bg-white" : "bg-orange-800"
-              }`}
+              className={`h-2.5 w-2.5 rounded-full transition-colors duration-300 ${step >= 1 ? "bg-white" : "bg-orange-800"
+                }`}
             />
             <div
-              className={`h-0.5 w-12 rounded-full transition-colors duration-300 ${
-                step >= 2 ? "bg-white" : "bg-orange-800"
-              }`}
+              className={`h-0.5 w-12 rounded-full transition-colors duration-300 ${step >= 2 ? "bg-white" : "bg-orange-800"
+                }`}
             />
             <div
-              className={`h-2.5 w-2.5 rounded-full transition-colors duration-300 ${
-                step >= 2 ? "bg-white" : "bg-orange-800"
-              }`}
+              className={`h-2.5 w-2.5 rounded-full transition-colors duration-300 ${step >= 2 ? "bg-white" : "bg-orange-800"
+                }`}
             />
           </div>
         </div>
@@ -517,7 +514,7 @@ export default function CarritoCheckoutPage() {
 
                       <div className="mt-5 flex items-center justify-center rounded-2xl border border-zinc-100 bg-zinc-50 p-4">
                         <Image
-                          src="/logo-keycop.webp"
+                          src="/etomin.png"
                           alt={t("images.securePaymentAlt")}
                           width={140}
                           height={20}
@@ -814,7 +811,7 @@ export default function CarritoCheckoutPage() {
                           value={formData.cardYear}
                           onChange={handleInputChange}
                           required
-                          maxLength={4}
+                          maxLength={2}
                           placeholder={t("form.expiryYearPlaceholder")}
                           mono
                           inputClassName="text-center"
@@ -846,7 +843,7 @@ export default function CarritoCheckoutPage() {
 
                       <div className="mt-5 flex items-center justify-center rounded-2xl border border-zinc-100 bg-zinc-50 p-4">
                         <Image
-                          src="/logo-keycop.webp"
+                          src="/etomin.png"
                           alt={t("images.securePaymentAlt")}
                           width={140}
                           height={20}

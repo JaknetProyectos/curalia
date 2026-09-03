@@ -30,7 +30,7 @@ interface CartContextType {
 }
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
-const CART_STORAGE_KEY = "medconfianza_cart";
+const CART_STORAGE_KEY = "curalia_cart";
 
 function normalizeCartItems(items: CartItem[]): CartItem[] {
     const map = new Map<string, CartItem>();
