@@ -131,7 +131,7 @@ export function Header() {
           <div className="mt-auto text-sm text-white/70">
             <p className="font-semibold text-white">Curalia</p>
             <p className="mt-1 flex items-center gap-2">
-              <Phone className="h-3.5 w-3.5 text-white/80" /> +52 1 55 2580 7319
+              <Phone className="h-3.5 w-3.5 text-white/80" /> +52 55 5682 3310
             </p>
             <p className="flex items-center gap-2">
               <Mail className="h-3.5 w-3.5 text-white/80" /> info@curalia.com.mx

@@ -70,10 +70,10 @@ export default function ContactoPage() {
               <div className="border-t border-zinc-200" />
               <ContactRow icon={Phone} title={t("info.phoneLabel")}>
                 <a
-                  href="tel:+525525807319"
+                  href="tel:+525556823310"
                   className="font-medium text-zinc-800 transition-colors hover:text-orange-600"
                 >
-                  +52 1 55 2580 7319
+                  +52 55 5682 3310
                 </a>
               </ContactRow>
               <div className="border-t border-zinc-200" />
