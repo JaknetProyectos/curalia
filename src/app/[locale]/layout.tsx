@@ -10,6 +10,7 @@ import { notFound } from 'next/navigation';
 import React from 'react';
 import { Toaster } from 'sonner';
 import ClientBody from './ClientBody';
+import { GoogleTagManager } from "@next/third-parties/google";
 
 
 export default async function LocaleLayout({ children, params }: {
@@ -24,6 +25,7 @@ export default async function LocaleLayout({ children, params }: {
     }
 
     const messages = await getMessages();
+    const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
 
     return (
         <NextIntlClientProvider messages={messages} locale={locale}>
@@ -38,6 +40,7 @@ export default async function LocaleLayout({ children, params }: {
                     </CartProvider>
                 </LocaleProvider>
             </ClientBody>
+            {gtmId && <GoogleTagManager gtmId={gtmId} />}
         </NextIntlClientProvider>
     );
 }
